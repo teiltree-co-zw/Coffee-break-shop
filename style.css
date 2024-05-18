@@ -228,6 +228,49 @@ html ::-webkit-scrollbar{
 }
 
 
+/* top cards end*/
+
+
+
+
+
+
+
+
+/* menu start */
+#menu{
+    width:100%;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+
+
+#container2{
+    margin-top: 20px;
+
+}
+#menu .card{
+    box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+}
+#menu .card img{
+    width: 100%;
+    height: 400px;
+}
+
+#menu .card img1{
+    width: 100%;
+    height: 400px;
+}
+#menu .card p{
+    color: #b2744c;
+    
+}
+/* menu end */
 
 
 
