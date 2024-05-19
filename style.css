@@ -262,10 +262,7 @@ html ::-webkit-scrollbar{
     height: 400px;
 }
 
-#menu .card img1{
-    width: 100%;
-    height: 400px;
-}
+
 #menu .card p{
     color: #b2744c;
     
