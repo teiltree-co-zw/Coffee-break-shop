@@ -267,7 +267,147 @@ html ::-webkit-scrollbar{
     color: #b2744c;
     
 }
+
+#menu .card span1{
+    color: black;
+}
 /* menu end */
+
+/* contact start*/
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%,#b2744c 20%);
+    border-radius:10px;
+
+}
+
+.heading6{
+    font-size:30px;
+    font-weight: bold;
+    margin-top:70px;
+
+}
+.heading6 span{
+    color:#b2744c
+}
+#contact p{
+    font-weight:bold;
+    font-size:13px;
+    color:black
+}
+#contact input{
+    width:360px;
+    border: none;
+    border-bottom:1px solid #b2744c ;
+}
+
+#contact-btn{
+
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color:#b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition:0.5s;
+    cursor: pointer;
+
+}
+
+ #contact-btn:hover{
+    background-color:#b2744c;
+    color:white;
+}
+#col{
+    width:40%;
+    height: 58vh;
+    background:grey;
+    margin-top: 78;
+}
+#contact h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+#contact #col p{
+    font-size:15px;
+    color:white;
+    margin-left: 13px;
+    margin-top:38px;
+
+}
+
+@media  screen and (max-width:768px) {
+    #contacts .container{
+        background:white;
+
+    }
+    #col{
+        width: 100%;
+        background: #b2744c;
+    }
+    #contact{
+        height: 150vh;
+    }
+    
+}
+@media screen and (max-width:400px){
+    #contact input{
+        width:250px;
+    }
+}
+
+/* footer start*/
+
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width:180px;
+    border-radius: 10px;
+    margin-top:30px;
+    cursor: pointer;
+}
+#footer .social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.copyright span{
+    color: black;
+}
+/* footer end*/
+
+html{
+    scroll-behavior: smooth;
+
+}
+.arrow{
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right:50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
 
 
 
